@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Edição do body */
+body {
+  text-align: center;
+}
+
+/* Edição da seção de introdução */
+#intro {
+  min-height: 100vh;
+  text-align: center;
+  margin: 0;
+  background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+}
+
+#foto-perfil {
+  border-radius: 50%;
+  margin-top: 200px;
+}
+
+#nome {
+  font-size: 40px;
+  margin: 10px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+.titulo {
+  font-size: 35px;
+  margin: 10px 0px;
+}
+
+.line {
+  border-bottom: solid black 5px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 20px;
+  margin: 0 30px;
+}
+
+#menu {
+  list-style: none;
+  position: fixed;
+  text-align: right;
+  top: 0px;
+  color: white;
+  margin: 0;
+  width: 100%;
+  background-color: rgb(162, 160, 160);
+  height: 30px;
+  padding-top: 5px;
+}
+
+.item {
+  display: inline;
+  padding: 5px 9px;
+  margin: 5px 0px;
+  font-size: 20px;
+}
+
+li a {
+  margin-top: 10px;
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  margin: 5px;
+}
+
+.artigo {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin: 5px 0px;
+}
